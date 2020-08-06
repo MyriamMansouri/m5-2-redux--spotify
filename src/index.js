@@ -1,11 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Provider } from "react-redux";
 import configureStore from "./store";
+import { Provider } from "react-redux";
+import App from "./components/App";
 
 const store = configureStore();
-
-import App from "./components/App";
 
 ReactDOM.render(
   <Provider store={store}>
