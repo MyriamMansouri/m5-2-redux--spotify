@@ -21,5 +21,5 @@ export const receiveArtist = (artistProfile) => ({
 });
 
 export const receiveArtistError = () => ({
-  type: "RECEIVE_ARTIST_ERRO",
+  type: "RECEIVE_ARTIST_ERROR",
 });
